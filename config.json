@@ -1,0 +1,10 @@
+[
+    [
+        "bc13058f-4037-ec11-8c64-000d3a223609",
+        "<Settings><TenantId>$TenantId</TenantId><ClientId>$ClientId</ClientId><ClientSecret>$ClientSecret</ClientSecret><QueueNameAccount>$QueueNameAccount</QueueNameAccount><ServiceBusNamespace>$ServiceBusNamespace</ServiceBusNamespace><KeyName>$KeyName</KeyName><KeyValue>$KeyValue</KeyValue></Settings>"
+    ],
+    [
+        "2698433a-3f37-ec11-8c64-000d3a223609",
+        "<Settings><QueueNameQuote>$QueueNameQuote</QueueNameQuote><ServiceBusNamespace>$ServiceBusNamespace</ServiceBusNamespace><KeyName>$KeyName</KeyName><KeyValue>$KeyValue</KeyValue></Settings>"
+    ]
+]
