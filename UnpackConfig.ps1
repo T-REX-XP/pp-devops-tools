@@ -72,7 +72,7 @@ else {
 }
 
 #Spliting xml to another files
-[xml]$xmlObject = Get-Content -Path "$folder\data.xml" -Encoding $enc
+[xml]$xmlObject = Get-Content -Path:"$folder\data.xml" -Encoding:$enc
 $entitylist = $xmlObject.entities.entity
 $entitiesCount = ($entitylist | Measure-Object).Count
 for ($i = 0; $i -lt $entitiesCount; $i++) {

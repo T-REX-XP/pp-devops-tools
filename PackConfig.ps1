@@ -54,7 +54,7 @@ foreach ($file in $files) {
 }
 
 $finalXml += "</entities>"
-([xml]$finalXml).Save("$folder\data.xml")
+Set-Content -Path "$folder\data.xml" -Value $finalXml -Encoding $enc
 Write-Host "Common file is created"
 
 #Create zipfile
